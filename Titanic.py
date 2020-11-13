@@ -1,3 +1,10 @@
+# Titanic investigation
+# What were the demographics of the passengers?
+# What deck were the passengers on?
+# Where did the passengers come from?
+# Who was alone and who was with family?
+# What factors help survives the sinking of the Titanic?
+
 import pandas as pd
 from pandas import Series, DataFrame
 import numpy as np
