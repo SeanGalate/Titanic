@@ -123,7 +123,7 @@ print(titanic_df.head(5))
 sns.catplot(x='Alone', kind='count', data=titanic_df, palette='Blues')
 plt.show()
 
-# What factors help survives the sinking of the Titanic?
+# What factors helped people survive the sinking of the Titanic?
 
 # Add new column to the DataFrame regarding survivors
 titanic_df['Survivor'] = titanic_df.Survived.map({0: 'no', 1: 'yes'})
